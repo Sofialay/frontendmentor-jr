@@ -8,11 +8,18 @@ const Index = () => {
 
     return (
         <div className='tt__trackingDashboard'>
-            {/* Make the user profile UI */}
             <div>
                 <button 
                     onClick={()=>setSwitcher('daily')}>
                     Daily
+                </button>
+                <button 
+                    onClick={()=>setSwitcher('weekly')}>
+                    Weekly
+                </button>
+                <button 
+                    onClick={()=>setSwitcher('weekly')}>
+                    Monthly
                 </button>
             </div>
             {data.map((item, index) => {
