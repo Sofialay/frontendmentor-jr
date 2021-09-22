@@ -1,11 +1,10 @@
 import React from 'react';
 import Card from '../../../components/Card/Card';
-
 export interface CardContainerProps {
     title: string
     time: object
     background: string
-    timeframes: 'daily' | 'weekly' | 'monthly'
+    timeframes: string
 }
 
 const CardContainer: React.FC<CardContainerProps> = ({ 
