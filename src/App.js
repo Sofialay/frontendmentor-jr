@@ -1,12 +1,12 @@
-import './App.scss';
-import TrackingDashboard from './projects/time-tracking-dashboard-main/index';
+import './App.scss'
+import { NFTCard } from './projects/nft-preview-card'
 
 function App() {
   return (
     <div className="App">
-      <TrackingDashboard/>
+      <NFTCard/>
     </div>
   );
 }
 
-export default App;
+export default App

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import './vars.css';
+
+.ch__nft {
+  font-family: 'Outfit', sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ch__nft .ch__cardWr {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: var(--color-card-bg-second);
+  width: 350px;
+}
+
+.ch__nft .ch__cardWr .ch__card {
+  background-color: var(--color-card-bg);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+
+.ch__card img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.ch__card h1 {
+  color: var(--color-white);
+}
+
+.ch__card p {
+  color: var(--color-soft-blue);
+  font-size: 1.1rem;
+}
+
+.ch__card .info {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.ch__card .info div {
+  display: flex;
+  align-items: center;
+}
+
+.ch__card .info div .price {
+  font-weight: bold;
+  color: var(--color-cyan);
+}
+
+.ch__card .info .img-info {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.ch__card .info::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-gray);
+}
+
+.ch__card .author {
+  display: flex;
+  align-items: center;
+}
+
+.ch__card .author img {
+  max-width: 30px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+@media (min-width: 1200px) {
+  .ch__nft .ch__cardWr {
+    max-width: 320px;
+  }
+}

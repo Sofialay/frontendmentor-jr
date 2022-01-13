@@ -1,0 +1,10 @@
+:root {
+    --color-background: hsl(217, 54%, 11%);
+    --color-card-bg: hsl(216, 50%, 16%);
+    --color-card-bg-second: hsla(218, 72%, 11%, 0.973);
+    --color-line: hsl(215, 32%, 27%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-soft-blue: hsl(215, 51%, 70%);
+    --color-cyan: hsl(178, 100%, 50%);
+    --color-gray: rgb(105, 105, 105);
+}
